@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServiceDesk</string>
+    <string name="title_activity_menu_result">MenuResult</string>
+</resources>

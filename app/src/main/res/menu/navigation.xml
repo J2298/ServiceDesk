@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_cliente"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/new_ticket"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Registrar Ticket Nuevo" />
+
+        <item
+            android:id="@+id/est_ticket"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Consultar Estado de Tickets" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_supervisor"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/all_ticket"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Consultar Todos los Tickets" />
+
+        <item
+            android:id="@+id/asig_ticket"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Asignar Tickets a Tecnico" />
+
+        <item
+            android:id="@+id/rep_ticket"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Reporte de Tickets" />
+    </group>
+
+    <group
+        android:id="@+id/group_tecnico"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/cons_ticket"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Consultar Tickets Asignados" />
+
+        <item
+            android:id="@+id/ate_ticket"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Atender Tickets Asignados" />
+    </group>
+
+</menu>

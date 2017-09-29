@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/perfil"
+        android:orderInCategory="999"
+        android:title="Perfil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/configuracion"
+        android:orderInCategory="999"
+        android:title="Configuracion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cerrar_sesion"
+        android:orderInCategory="999"
+        android:title="Cerrar Sesion"
+        app:showAsAction="never" />
+
+</menu>
